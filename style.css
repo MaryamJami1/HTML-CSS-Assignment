@@ -1,0 +1,392 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#head {
+    background-image: url(./Mid-Term-Task/images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.80;
+}
+
+#tempo-top {
+    letter-spacing: 3px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    float: right;
+
+}
+
+ul li {
+    display: inline-block;
+    padding-top: 20px;
+
+}
+
+ul li a {
+    background-color: rgba(128, 128, 128, 0.373);
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #fff;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+ul li a:hover {
+    background-color: black;
+    color: #fff;
+    border: transparent;
+}
+
+.text {
+    padding: 160px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+button#tempo {
+    background-color: rgba(128, 128, 128, 0.349);
+    color: black;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 3px solid white;
+    margin-left: 350px;
+    width: 180px;
+    height: 35px;
+    padding: 5px;
+
+}
+
+.text button#tempo:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+}
+
+button#start {
+    background-color: transparent;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 3px solid white;
+    color: #fff;
+    margin-left: 370px;
+    height: 30px;
+    width: 150px;
+
+}
+
+.text button#start:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#paragh {
+    font-family: 'Times New Roman', serif;
+    font-size: large;
+    margin-top: 15px;
+    color: #fff;
+    margin-left: 210px;
+
+}
+
+#heading {
+    margin-left: 280px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+#box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+span {
+    color: rgb(215, 56, 82);
+}
+
+button {
+    background-color: rgba(255, 192, 203, 0.419);
+    color: rgb(215, 56, 82);
+    border-radius: 40px;
+    height: 25px;
+    width: 100px;
+    border: transparent;
+}
+
+#box button:hover {
+    background-color: rgb(215, 56, 82);
+    color: white;
+}
+
+
+
+.boxes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#box1 {
+    height: 200px;
+    width: 210px;
+    padding-top: 35px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+#box2 {
+    height: 200px;
+    width: 210px;
+    padding-top: 35px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#box3 {
+    height: 200px;
+    width: 210px;
+    padding-top: 35px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#box4 {
+    height: 200px;
+    width: 210px;
+    padding-top: 35px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+p {
+    line-height: 20px;
+}
+
+.boxes i {
+    color: rgb(215, 56, 82);
+    font-size: 25px;
+}
+
+.four-button button {
+    margin-left: 5px;
+    width: 60px;
+    background-color: rgba(204, 164, 164, 0.355);
+    color: black;
+    font-weight: 300;
+}
+
+.four-button button:hover {
+    background-color: rgb(215, 56, 82);
+    color: #fff;
+}
+
+
+.images-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.images-main img {
+    height: 300px;
+    width: 350px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.team {
+    display: flex;
+}
+
+.team div img {
+    height: 220px;
+    width: 230px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.border {
+    height: 290px;
+    width: 230px;
+    background-color: #fff;
+    margin: 15px;
+    box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.border h2 {
+    padding: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.762);
+    font-size: medium;
+}
+
+.border p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.485);
+    font-size: 10px;
+    line-height: 5px;
+}
+
+#contact {
+    height: 200px;
+    width: 1000px;
+    background-color: rgba(128, 128, 128, 0.403);
+    display: flex;
+    align-items: flex-end;
+}
+
+#contact img {
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+    border: 2px solid #fff;
+    box-shadow: 2px 3px 3px grey;
+    border-radius: 3px;
+}
+
+.contact-sec {
+    height: 230px;
+    width: 1000px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+#text p {
+    font-size: 15px;
+    text-align: left;
+
+}
+
+#text p#paragh2 {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#text i {
+    color: rgb(215, 56, 82);
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(136, 87, 87, 0.182);
+    border-radius: 50%;
+
+}
+
+.input {
+    padding-left: 380px;
+}
+
+#input-name-email {
+    width: 200px;
+    padding: 5px;
+}
+
+#input-subject-message {
+    width: 400px;
+    padding: 5px;
+}
+
+#send-message {
+    padding-left: 600px;
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width:600px) {
+    #head {
+        width: 1500px;
+    }
+    ul li a {
+     height: 30px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    ul li {
+        display: inline-flex;
+        height: 50px;
+
+    }
+
+    
+    #contact{
+        width: 1500px;
+    }
+
+
+    .contact-sec {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 100px;
+        margin-right: 280px;
+    }
+
+    .input {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        
+    }
+    #input-name-email{
+        margin-right: 290px;
+        margin-top: 20px;
+    }
+    #input-subject-message{
+        margin-right: 90px;
+        margin-top: 20px;
+    }
+
+
+    #send-message{
+        margin-top: 550px;
+        margin-right: 800px;
+
+    
+    }
+}
